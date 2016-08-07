@@ -8,12 +8,16 @@
 
 #import <Foundation/Foundation.h>
 
-NSString *const kAPIKey = @"fFZAY5FDfuCs1OUVEOtoCrhgA";
-NSString *const kAppOnlyAuthentication = @" https://api.twitter.com/oauth2/token";
-NSString *const kRequestTokenURL = @"https://api.twitter.com/oauth/request_token";
-NSString *const kAuthorizeURL = @"https://api.twitter.com/oauth/authorize";
-NSString *const kAccesstokenURL = @"https://api.twitter.com/oauth/access_token";
+/*----------
+ *
+ *  ここに定数を記述
+ *  公開時には削除する
+ *
+----------*/
+
 
 @interface FMLoginFetcher : NSObject
+
+- (void)loginTwitter; //ログインをするメソッド
 
 @end
